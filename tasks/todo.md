@@ -33,15 +33,26 @@
 - ✅ Deployed to existing idanbadin-portfolio site
 - ✅ Live at: https://idanbadin-portfolio.netlify.app
 
-## 📋 Potential Next Steps
-- [ ] Replace gradient placeholder images with real screenshots/mockups
-- [ ] Add project links (URLs) to WorkImage cards
-- [ ] Add favicon (currently commented out in index.html)
-- [ ] Consider adding a _redirects file for SPA routing on Netlify
+### Phase 7 — GSAP Fix (Session 2)
+- ✅ Replaced gsap-trial (deprecated) with gsap@3.14.2 (free + all plugins included)
+- ✅ Updated imports: ScrollSmoother, SplitText → gsap standard package
+- ✅ Added netlify.toml (publish = "dist")
+- ✅ Rebuilt and redeployed — site verified working via Playwright screenshot
+- ✅ Pushed all changes to GitHub main branch
+
+## 📋 Next Session — Start Here
+- [ ] Replace placeholder gradient images with real project screenshots/mockups
+- [ ] Add project links (URLs) to Work cards (currently no clickable links)
+- [ ] Add favicon (index.html has commented-out favicon line)
+- [ ] Add _redirects for SPA routing on Netlify (direct URL access may return 404)
 - [ ] Consider custom domain setup
+- [ ] Consider removing Twitter/Instagram social icons from Landing (still visible in sidebar)
 
 ## ⚠️ Important Context
-- The GitHub repo already existed with Bolt.new content — we force-pushed over it
-- npm scripts (tsc, vite) need to be called via node_modules path — PATH doesn't include them
-- @gsap/react was installed empty due to network issue, fixed with targeted npm install
-- The TechStack component uses image textures on 3D physics spheres (not text labels) — kept existing tech logo images
+- GitHub repo: https://github.com/IdanBadin/idan-badin-portfolio-site (branch: main)
+- Live URL: https://idanbadin-portfolio.netlify.app
+- Netlify siteId: 15782831-7017-43a8-b30a-e17627ec86ca
+- Build command: `./node_modules/.bin/vite build` (PATH doesn't include node_modules/.bin)
+- gsap-trial was removed — do NOT add it back
+- TechStack component uses image textures on 3D physics spheres (not text labels)
+- To deploy: build dist/ then use Netlify MCP deploy-site with deployDirectory pointing to dist/
