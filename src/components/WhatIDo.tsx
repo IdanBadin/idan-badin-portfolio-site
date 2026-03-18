@@ -87,24 +87,22 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h3>AI</h3>
+              <h4>Artificial Intelligence</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Building intelligent agents and automating complex workflows
+                using LLMs, Copilot Studio, and Python-based AI frameworks.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">Microsoft Copilot Studio</div>
+                <div className="what-tags">LLMs</div>
+                <div className="what-tags">AI Agents</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">Automation</div>
+                <div className="what-tags">Workflow Design</div>
+                <div className="what-tags">GPT</div>
+                <div className="what-tags">API Integration</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +126,22 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>DATA</h3>
+              <h4>Data Analysis</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Transforming raw data into actionable insights through dashboards,
+                ETL pipelines, and machine learning techniques.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">Python (Pandas, NumPy)</div>
+                <div className="what-tags">Machine Learning</div>
+                <div className="what-tags">Tableau</div>
+                <div className="what-tags">Power BI</div>
+                <div className="what-tags">Excel</div>
+                <div className="what-tags">ETL</div>
+                <div className="what-tags">Dashboards</div>
               </div>
               <div className="what-arrow"></div>
             </div>

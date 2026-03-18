@@ -6,6 +6,45 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP);
 
+const projects = [
+  {
+    name: "AI Registration Agent",
+    category: "AI / Automation",
+    tools: "Microsoft Copilot Studio, LLMs, Python",
+    image: "/images/ai-agent.webp",
+  },
+  {
+    name: "Procurement Analytics Dashboard",
+    category: "Data Analysis",
+    tools: "SAP, SQL, Python, Pandas",
+    image: "/images/dashboard.webp",
+  },
+  {
+    name: "Video Localization AI Pipeline",
+    category: "AI / NLP",
+    tools: "DeepL, GPT, Maestra, Python",
+    image: "/images/localization.webp",
+  },
+  {
+    name: "SaaS Web Products",
+    category: "Web Development",
+    tools: "JavaScript, HTML, CSS, API Integration",
+    image: "/images/saas-web.webp",
+  },
+  {
+    name: "Factory Productivity Tracker",
+    category: "Software Development",
+    tools: "Python, Custom Tooling",
+    image: "/images/factory-tracker.webp",
+  },
+  {
+    name: "Portfolio Website",
+    category: "Web Development",
+    tools: "React, TypeScript, Three.js, GSAP",
+    image: "/images/portfolio.webp",
+  },
+];
+
 const Work = () => {
   useGSAP(() => {
   let translateX: number = 0;
@@ -28,7 +67,7 @@ const Work = () => {
     scrollTrigger: {
       trigger: ".work-section",
       start: "top top",
-      end: `+=${translateX}`, // Use actual scroll width
+      end: `+=${translateX}`,
       scrub: true,
       pin: true,
       id: "work",
@@ -40,7 +79,6 @@ const Work = () => {
     ease: "none",
   });
 
-  // Clean up (optional, good practice)
   return () => {
     timeline.kill();
     ScrollTrigger.getById("work")?.kill();
@@ -53,21 +91,21 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
+          {projects.map((project, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
                 <div className="work-title">
                   <h3>0{index + 1}</h3>
 
                   <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
+                    <h4>{project.name}</h4>
+                    <p>{project.category}</p>
                   </div>
                 </div>
                 <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
+                <p>{project.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <WorkImage image={project.image} alt={project.name} />
             </div>
           ))}
         </div>

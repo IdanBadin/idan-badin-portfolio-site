@@ -15,43 +15,71 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Software Project Manager</h4>
+                <h5>Hakurnas Lead Works</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2020–2021</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Increased factory productivity 25% by independently developing a
+              custom digital tracking system. Led full lifecycle from needs
+              assessment through deployment and team onboarding.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Technical Support & Front-end Dev</h4>
+                <h5>Weezmo (Nayax)</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2022–2024</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Built client-facing web products using JavaScript, HTML, and CSS.
+              Performed complex troubleshooting and log analysis for SaaS
+              products in close collaboration with R&D teams.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>AI Content Localization Lead</h4>
+                <h5>Aleph Beta × EL AL</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2025–Now</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Architected AI-driven content workflows using DeepL, GPT, and
+              Maestra for large-scale video subtitle localization with high-level
+              quality assurance.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Data Analyst Intern</h4>
+                <h5>Amdocs</h5>
+              </div>
+              <h3>2025–Now</h3>
+            </div>
+            <p>
+              Built SAP-integrated dashboards for supplier data analysis.
+              Automated ETL workflows with SQL and Python, and applied ML
+              techniques for service pattern detection.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>AI Solutions Engineer</h4>
+                <h5>Reichman University</h5>
+              </div>
+              <h3>2026–Now</h3>
+            </div>
+            <p>
+              Developing LLM-powered AI Agents for the Registration Department
+              using Microsoft Copilot Studio. Managing full project lifecycle
+              from stakeholder analysis to university-wide deployment.
             </p>
           </div>
         </div>
